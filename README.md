@@ -25,6 +25,10 @@ link to api : https://apisetu.gov.in/public/marketplace/api/cowin
     9. Add this command to it :: */5 * * * * python3 /home/ubuntu/cowin-session-finder/main.py >> log.txt 2>&1
     10. This command will execute main.py in every 5 minutes which means it checks slots in every 5 min.
     11. It redirect all logs to log.txt.
+ 
+## Result
+    1. You can check the number of time the script run by " grep CRON /var/log/syslog " 
+    2. And also log.txt will show you result. 
 
 
    
