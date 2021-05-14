@@ -21,7 +21,10 @@ link to api : https://apisetu.gov.in/public/marketplace/api/cowin
         config_email :: this email for configuration as well as receiver email
         (both can be same)
         districtid :: Check it on cowin api. Initially set for amravati.
-    8. 
+    8. Now type command " crontab -e " file will open in vim or nano
+    9. Add this command to it :: */5 * * * * python3 /home/ubuntu/cowin-session-finder/main.py >> log.txt 2>&1
+    10. This command will execute main.py in every 5 minutes which means it checks slots in every 5 min.
+    11. It redirect all logs to log.txt.
 
 
    
