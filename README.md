@@ -1,7 +1,8 @@
 # COWIN NOTIFIER
 
 This python script will help one to get notification on email whenever slots are available on the cowin app.
-Cowin api are used to do all perpose.
+Cowin api's are used. 
+link : https://apisetu.gov.in/public/marketplace/api/cowin
 
 ## status : 
     1. working on frontend making and multiple user accessability
