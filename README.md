@@ -4,9 +4,9 @@ This python script will help one to get notification on email whenever slots are
 Cowin api are used to do all perpose.
 
 status : 
-    working frontend making and multiple user accessability
-    sns ( text messaging )
-    working on sockets
+    1. working frontend making and multiple user accessability
+    2. sns ( text messaging )
+    3. working on sockets
 
 ## Requirement, packages and Installation : 
     1. You Need to have EC2 (Any Linux Distro) in amazon 
