@@ -4,7 +4,7 @@ This python script will help one to get notification on email whenever slots are
 Cowin api are used to do all perpose.
 
 ## status : 
-    1. working frontend making and multiple user accessability
+    1. working on frontend making and multiple user accessability
     2. sns ( text messaging )
     3. working on sockets
 
