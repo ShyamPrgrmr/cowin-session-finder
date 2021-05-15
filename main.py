@@ -7,14 +7,13 @@ import sys
 import json
 from datetime import datetime
 
+print("\n\nNew Pass")
+
 with open('config.json') as json_file:
     config = json.load(json_file)
     email = config['email']
     rec = config['config_email']
 
-print("Sender Email ",email)
-print("Receiver Email ",rec)
-print("Checking Slots for ",config['districtid'])
 
 def send_email_ses(body,sub):
     SENDER = email
@@ -65,7 +64,7 @@ def check_for_slots():
     y = today.year
     m = today.month
     d = today.day
-    date = str(d+1)+"-"+str(m)+"-"+str(y)
+    date = str(d)+"-"+str(m)+"-"+str(y)
     districtid=str( config['districtid'] ) #change district id
     try:
         url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id="+districtid+"&date="+date
